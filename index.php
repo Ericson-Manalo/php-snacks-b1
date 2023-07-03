@@ -7,7 +7,19 @@
     <title>Matches</title>
 </head>
 <body>
-    
+    <div>
+        <ul>
+            <?php foreach($matches as $value) { ?>
+                <li>
+                    <p>
+                        Match <?php echo $value;  ?>
+                    </p>
+                </li>
+            <?php } ?>
+
+        </ul>
+    </div>
+
 </body>
 </html>
 
